@@ -1,0 +1,56 @@
+name: buyers
+description: "A new Flutter project."
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  dots_indicator: ^3.0.0
+  firebase_auth: ^4.17.4
+  cloud_firestore: ^4.15.4
+  firebase_core: ^2.25.4
+  provider: ^6.1.1
+  geolocator: ^11.0.0
+  google_maps_flutter: ^2.5.3
+  flutter_geocoder: ^0.2.2-nullsafety
+  flutter_spinkit: ^5.2.0
+  shared_preferences: ^2.2.2
+  carousel_slider: ^4.2.1
+  cached_network_image: ^3.3.1
+  persistent_bottom_nav_bar: ^5.0.2
+  shimmer_animation: ^2.1.0+1
+  expandable_text: ^2.3.0
+  flutter_easyloading: ^3.0.5
+  visibility_detector: ^0.4.0+2
+  dotted_border: ^2.1.0
+  intl: ^0.19.0
+  chips_choice: ^3.0.1
+  search_page: ^2.3.0
+  url_launcher: ^6.2.5
+  map_launcher: ^3.2.0
+  sms_autofill: ^2.3.1
+  image_picker: ^1.0.7
+  firebase_storage: ^11.6.10
+  google_sign_in: ^6.2.1
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.1
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - lib/images/
+   
